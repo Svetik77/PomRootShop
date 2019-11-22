@@ -15,7 +15,6 @@ import boostbrain.domain.ThingInOrder;
 @LocalBean
 public class OrderManagerBean {
 
-	/**<persistence-unit name="examplePU">*/
 	@PersistenceContext(unitName = "LogicEJB")
 	private EntityManager entityManager;
 	/** create order  */
